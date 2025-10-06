@@ -37,12 +37,20 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    borderBottomColor: '#cccccc'
+    padding: 16,
+    backgroundColor: '#311b6b',
+  },
+  image: {
+    width: 100,
+    height: 100,
+    margin: 20,
   },
   textInput: {
     borderWidth: 1,
-    borderColor: '#cccccc',
+    borderColor: '#e4d0ff',
+    backgroundColor: '#e4d0ff',
     width: '90%',
+    borderRadius: 6,
     marginRight: 8,
     padding: 8
   },
